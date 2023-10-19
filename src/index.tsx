@@ -14,7 +14,7 @@ root.render(
     domain="dev-njrk6jem4vh1fqml.us.auth0.com"
     clientId="0u6TQqXPzpaZy1Tw0ABtmO8cl4Z7z0fK"
     authorizationParams={{
-      redirect_uri: "http://localhost:3000/dashboard"
+      redirect_uri: "https://pet-veterinary-self.vercel.app/dashboard"
     }}
   >
     <BrowserRouter>
