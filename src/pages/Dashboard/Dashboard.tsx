@@ -5,13 +5,11 @@ import DashboardHeader from '../../components/DashboardComponent/DashboardHeader
 import SideBar from '../../components/DashboardComponent/SideBar';
 import '../../assets/css/DashboardCss/dashboard.css';
 
-const Layout = ({ children }:any) => {
+const Layout = ({ children }: any) => {
   const [toggle, setToggle] = useState(true);
-  const { isAuthenticated, user, isLoading } = useAuth0();
+  const { isAuthenticated, loginWithRedirect } = useAuth0();
 
-  console.log('isAuthenticated', isAuthenticated);
-  console.log('user', user);
-  console.log('isLoading', isLoading);
+
 
   const handler = () => {
     setToggle(!toggle);
@@ -27,7 +25,10 @@ const Layout = ({ children }:any) => {
         {children}
       </div>
     </div>
-  ) : null;
+  ) : <h1>
+    Not autherised login here               
+       <button className={`login_button`} onClick={() => loginWithRedirect()}>Log in</button>
+  </h1>;
 };
 
 export default Layout;
