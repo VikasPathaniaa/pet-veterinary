@@ -1,0 +1,29 @@
+.landing_container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.landing_box{
+    height: 11rem;
+    width: 20rem;
+    display: grid;
+    place-items: center;
+    border-radius: 16px;
+    background-color: darkgray;
+    color: white;
+    font-size: 2rem;
+    padding: 13px;
+}
+
+
+.logout_button{
+    background-color: #303c54;
+    padding: 11px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-left: 12px;
+    position: absolute;
+    bottom: 18px;
+}

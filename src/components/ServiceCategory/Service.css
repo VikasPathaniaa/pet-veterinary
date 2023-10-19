@@ -1,0 +1,31 @@
+.service_container{
+    width: 80%;
+    margin: auto;
+}
+
+.service_card{
+    width: 131px;
+    height: 129px;
+    border: 2px solid #F2968F;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 12px;
+    text-transform: capitalize;
+}
+
+.service_card_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    border-radius: 12px;
+}
+.service_card_text{
+    text-transform: capitalize;
+}

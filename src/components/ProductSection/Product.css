@@ -1,0 +1,60 @@
+/* Product section css Start  */
+
+
+.product_section {
+    width: 80%;
+    margin: auto;
+}
+
+.product_heading>h3 {
+    text-decoration: underline;
+}
+
+.offer_section>p {
+    font-size: 29px;
+
+}
+
+.offer_section>p>span {
+    font-weight: 600;
+}
+
+.view_more_button {
+    background-color: #F2968F;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.offer_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product_stack{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    /* text-align: center; */
+}
+.buy_button{
+    border: 2px solid #F2968F;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.product_card{
+    margin-top: 6px;
+}
+
+.detail_section{
+    width:19rem
+}

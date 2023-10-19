@@ -1,0 +1,125 @@
+.footer_section{
+    background-color: #f5f9f8;
+    margin-top: 90px;
+}
+
+.footer_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email_input{
+    border:none;
+    margin : 0px 6px;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+}
+.footer_title{
+    font-size: 20px;
+    font-weight: 700;
+    /* font-family: cursive; */
+}
+.footer_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fafafa;
+    height: 67px;
+    box-shadow: 0px 1px 5px 0px gray;
+    padding: 0px 12px;
+    border-radius: 4px;
+}
+
+.footer_button{
+    background-color: #F2968F;
+    color: white;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    width: 10rem;
+    text-align: center;
+}
+
+.footer_bottom_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 130px;
+}
+
+.address_section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.footer_address_title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer_number{
+    color: #120579d6;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social_icons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;    
+}
+
+.social_media_icon{
+    padding: 9px;
+    background-color: gainsboro;
+    border-radius: 34px;
+}
+
+.address{
+    color: gray;
+    font-size: 12px;
+}
+
+.main_footer_container{
+    border-bottom: 1px solid gray;
+}
+
+.footer_list > ul {
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+}
+.copy_right_section{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 130px;
+}
+.copy_rights{
+    color: gray;
+}
+.footer_list > ul >li {
+   list-style: none;
+   font-weight: 600;
+   text-transform: capitalize;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .copy_right_section{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 36px;
+    }
+    .footer_bottom_section{
+        flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+    }
+
+}
